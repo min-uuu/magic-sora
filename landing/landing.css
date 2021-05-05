@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: white;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.5vw;
+  font-size: 2.2vh;
   line-height: 1.5;
 }
 
@@ -23,15 +23,18 @@ body {
 
 img {
     width: 35vw;
-    margin-right: 11vw;
+    margin-right: 16vh;
+    margin-bottom: 5vh;
 }
 
 .notiTitle {
     margin-bottom: 5%;
+    color: gray;
 }
 
 .notiContent {
     margin-bottom: 10%;
+    color: gray;
 }
 
 a {
@@ -42,5 +45,11 @@ a {
 
 a:hover {
     color: brown;
+}
+
+@media (max-width: 400px){
+	.content {
+        display: block;
+    }
 }
 
