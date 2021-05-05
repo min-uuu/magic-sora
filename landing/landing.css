@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 70vw;
+}
+
+img {
+    width: 35vw;
+    margin-right: 11vw;
+}
+
+.notiTitle {
+    margin-bottom: 5%;
+}
+
+.notiContent {
+    margin-bottom: 10%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+a:hover {
+    color: brown;
+}
+
