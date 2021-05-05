@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f8bc;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+#title {
+    text-align: center;
+    font-size: 4vh;
+    margin-bottom: 10vh;
+}
+
+#sora {
+    text-align: center;
+    margin-bottom: 10vh;
+    transition: all ease 0.5s;
+}
+
+#sora:hover {
+    transform: rotate(10deg);
+}
+
+
+
+#sora > img {
+    width: 30vh;
+}
+
+#text {
+    text-align: center;
+    font-size: 3vh;
+    margin-bottom: 10vh;
+}
