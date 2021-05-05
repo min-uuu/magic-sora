@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+#sora {
+    text-align: center;
+    margin-bottom: 10vh;
+    transition: all ease 0.5s;
+}
+
+#sora:hover {
+    cursor: pointer;
+    transform: rotate(10deg);
+}
+
+#sora > img {
+    width: 30vh;
+}
+
+#text {
+    display: initial;
+    text-align: center;
+    font-size: 3vh;
+    margin-bottom: 10vh;
+}
