@@ -5,6 +5,6 @@
 <br> <br>
 
 <p align="center">
-https://minyou.us/magic-sora
+  <a href="https://minyou.us/magic-sora">서비스 페이지</a>
 </p>
 <br>
