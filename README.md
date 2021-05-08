@@ -1,2 +1,10 @@
-# magic sora
-마법의 소라고동, 일상에 마법을 더하다.
+<br> <br>
+<p align="center">
+<img width="400px" src="sorce/title.png"/>
+</p>
+<br> <br>
+
+<p align="center">
+https://minyou.us/magic-sora
+</p>
+<br>
